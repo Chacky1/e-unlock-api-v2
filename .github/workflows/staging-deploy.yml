@@ -25,7 +25,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: /docker/staging/Dockerfile
+          file: docker/staging/Dockerfile
           push: true
           tags: unlocktoncomputer/e-unlock-api:staging-latest
 
